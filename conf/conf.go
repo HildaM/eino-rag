@@ -14,6 +14,17 @@ type Config struct {
 		Dimension int64 `mapstructure:"dimension"` // 服务端嵌入维度
 	} `mapstructure:"rag"`
 
+	// 火山引擎embedding 配置
+	Embedder struct {
+		APIKey  string `mapstructure:"api_key"`  // 模型 API Key
+		ModelID string `mapstructure:"model_id"` // 模型 ID
+	} `mapstructure:"embedder"`
+
+	// 索引器配置
+	Indexer struct {
+		BatchSize int `mapstructure:"batch_size"` // 批量索引大小
+	} `mapstructure:"indexer"`
+
 	// 模型配置
 	DeekSeek struct {
 		APIKey  string `mapstructure:"api_key"`  // 模型 API Key

@@ -28,6 +28,8 @@ github.com/cloudwego/eino v0.3.19 h1:PoldC4q5ZWth/aBDUM9WMJISh/t40C0K/OTh1KpA+Kk
 github.com/cloudwego/eino v0.3.19/go.mod h1:wUjz990apdsaOraOXdh6CdhVXq8DJsOvLsVlxNTcNfY=
 github.com/cloudwego/eino-ext/components/document/loader/file v0.0.0-20250331101427-906b8d194a99 h1:iwTORyIpROHXKLlr+oeSNm6wj1V/gVuOpGLhlWb8lwk=
 github.com/cloudwego/eino-ext/components/document/loader/file v0.0.0-20250331101427-906b8d194a99/go.mod h1:7WMKVsrqApZ4wm50XWqyU7/I82kQ0Khllv7z2hCxBP8=
+github.com/cloudwego/eino-ext/components/document/transformer/splitter/markdown v0.0.0-20250331101427-906b8d194a99 h1:G3xuOdsvesRAQcQeZCs2zRtIp1r74sbePm1QnI9sYHc=
+github.com/cloudwego/eino-ext/components/document/transformer/splitter/markdown v0.0.0-20250331101427-906b8d194a99/go.mod h1:04mVn7J8UITWFoYcN/PBMozX9qLNm3yTYoR9TA+scwA=
 github.com/cloudwego/eino-ext/components/embedding/ark v0.0.0-20250331101427-906b8d194a99 h1:md1Ta48RGFjsomGdD7LPTwSEqkAAByvZAV8janYRNSo=
 github.com/cloudwego/eino-ext/components/embedding/ark v0.0.0-20250331101427-906b8d194a99/go.mod h1:cSUL25ur/L4ChcvYDrVjHobhtRzlB4WW3d5BoOvoETU=
 github.com/cloudwego/eino-ext/components/indexer/redis v0.0.0-20250331101427-906b8d194a99 h1:lt6C/q7DdD9OFvHkqsw/iL7LG9fZslIPbBrYXbchIOA=
@@ -243,8 +245,8 @@ golang.org/x/sys v0.0.0-20190215142949-d0b11bdaac8a/go.mod h1:STP8DvDyc/dI5b8T5h
 golang.org/x/sys v0.0.0-20220715151400-c0bba94af5f8/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
 golang.org/x/sys v0.29.0 h1:TPYlXGxvx1MGTn2GiZDhnjPA9wZzZeGKHHmKhHYvgaU=
 golang.org/x/sys v0.29.0/go.mod h1:/VUhepiaJMQUp4+oa/7Zr1D23ma6VTLIYjOOTFZPUcA=
-golang.org/x/term v0.10.0 h1:3R7pNqamzBraeqj/Tj8qt1aQ2HpmlC+Cx/qL/7hn4/c=
-golang.org/x/term v0.10.0/go.mod h1:lpqdcUyK/oCiQxvxVrppt5ggO2KCZ5QblwqPnfZ6d5o=
+golang.org/x/term v0.27.0 h1:WP60Sv1nlK1T6SupCHbXzSaN0b9wUmsPoRS9b61A23Q=
+golang.org/x/term v0.27.0/go.mod h1:iMsnZpn0cago0GOrHO2+Y7u7JPn5AylBrcoWkElMTSM=
 golang.org/x/text v0.3.0/go.mod h1:NqM8EUOU14njkJ3fqMW+pc6Ldnwhi/IjpwHt7yyuwOQ=
 golang.org/x/text v0.21.0 h1:zyQAAkrwaneQ066sspRyJaG9VNi/YJ1NfzcGB3hZ/qo=
 golang.org/x/text v0.21.0/go.mod h1:4IBbMaMmOPCJ8SecivzSH54+73PCFmPWxNTLm+vZkEQ=

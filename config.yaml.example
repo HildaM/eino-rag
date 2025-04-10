@@ -1,0 +1,23 @@
+# RAG 配置
+rag:
+  dimension: 1536  # 向量嵌入维度
+
+# 火山引擎embedding配置
+embedder:
+  api_key: "your_ark_api_key_here"  # 火山引擎 API Key
+  model_id: "bge-large-zh"  # 嵌入模型ID
+
+# 索引器配置
+indexer:
+  batch_size: 100  # 批量索引大小
+
+# DeepSeek模型配置
+DeekSeek:
+  api_key: "your_deepseek_api_key_here"  # DeepSeek API Key
+  model_id: "deepseek-chat"  # 大模型ID
+  base_url: "https://api.deepseek.com/v1"  # API 基础URL
+
+# Redis 配置
+Redis:
+  addr: "localhost:6379"  # Redis地址
+  password: ""  # Redis密码，无密码则留空 

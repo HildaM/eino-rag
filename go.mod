@@ -5,8 +5,10 @@ go 1.22.4
 require (
 	github.com/cloudwego/eino v0.3.19
 	github.com/cloudwego/eino-ext/components/document/loader/file v0.0.0-20250331101427-906b8d194a99
+	github.com/cloudwego/eino-ext/components/document/transformer/splitter/markdown v0.0.0-20250331101427-906b8d194a99
 	github.com/cloudwego/eino-ext/components/embedding/ark v0.0.0-20250331101427-906b8d194a99
 	github.com/cloudwego/eino-ext/components/indexer/redis v0.0.0-20250331101427-906b8d194a99
+	github.com/cloudwego/eino-ext/components/model/openai v0.0.0-20250331101427-906b8d194a99
 	github.com/cloudwego/eino-ext/components/retriever/redis v0.0.0-20250331101427-906b8d194a99
 	github.com/fsnotify/fsnotify v1.8.0
 	github.com/redis/go-redis/v9 v9.7.3
@@ -18,7 +20,6 @@ require (
 	github.com/bytedance/sonic/loader v0.2.4 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/cloudwego/base64x v0.1.5 // indirect
-	github.com/cloudwego/eino-ext/components/model/openai v0.0.0-20250331101427-906b8d194a99 // indirect
 	github.com/cloudwego/eino-ext/libs/acl/openai v0.0.0-20250305023926-469de0301955 // indirect
 	github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f // indirect
 	github.com/dustin/go-humanize v1.0.1 // indirect
